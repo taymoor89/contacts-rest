@@ -11,7 +11,7 @@ global.contacts = [
 
 let bootstrap = function () {
 	let server = createServer(app);
-	server.listen(8000, () => {
+	server.listen(80, () => {
 		console.log('Server running at http://127.0.0.1:8000');
 	});		
 }
