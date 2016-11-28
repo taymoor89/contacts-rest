@@ -11,9 +11,9 @@ global.contacts = [
 
 let bootstrap = function () {
 	let server = createServer(app);
-	server.listen(9090, () => {
+	server.listen(process.env.PORT || 8888, () => {
 		console.log('Server running.');
 	});		
-}
+};
 
 export default bootstrap;
