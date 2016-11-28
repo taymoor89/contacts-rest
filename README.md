@@ -11,6 +11,8 @@ npm install
 npm start
 ```
 
+Note: Use [yarn](https://yarnpkg.com/en/docs/install) instead of `npm` for better performance and dependency management of your node packages. 
+
 ##Endpoints
 
 To List Contacts
